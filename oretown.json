@@ -7,7 +7,7 @@
 				"full": "Dwarves of Oretown",
 				"url": "https://raw.githubusercontent.com/JohannesHjalmarsson/doo/main/oretown.json",
 				"color": "7F6D66",
-				"version": "1.0",
+				"version": "1.0.1",
 				"targetSchema": "1.10.3",
 				"authors": [
 					"C.N."
@@ -18,7 +18,7 @@
 			}
 		],
 		"dateAdded": 1666957444,
-		"dateLastModified": 1666981260
+		"dateLastModified": 1666982442
 	},
 	"monster": [
 		{
