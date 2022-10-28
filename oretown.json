@@ -1,0 +1,291 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "oretown",
+				"abbreviation": "DoO",
+				"full": "Dwarves of Oretown",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"color": "7F6D66",
+				"authors": [
+					"C.N."
+				],
+				"convertedBy": [
+					"Jojo"
+				]
+			}
+		],
+		"dateAdded": 1666957444,
+		"dateLastModified": 1666957444
+	},
+	"monster": [
+		{
+			"name": "Gragas Jr. IV \"Fireball\"",
+			"shortName": "Fireball",
+			"isNpc": true,
+			"source": "oretown",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 24",
+				"average": 60
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 9,
+			"dex": 18,
+			"con": 16,
+			"int": 14,
+			"wis": 16,
+			"cha": 11,
+			"save": {
+				"str": "+2",
+				"dex": "+7"
+			},
+			"skill": {
+				"acrobatics": "+7",
+				"history": "+5",
+				"insight": "+6",
+				"survival": "+6",
+				"performance": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"Fireball has advantage on saving throws against poison, and has resistance against poison damage."
+					]
+				},
+				{
+					"name": "Drunken Technique",
+					"entries": [
+						"Whenever Fireball uses a bonus action to make an unarmed strike, he gains the benefit of the Disengage action, and his walking speed increases by 10 feet until the end of his turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Fireball makes two attacks with his unarmed strike, and can choose to make two additional unarmed strikes as a bonus action. "
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage. Once on each of his turns, Fireball can also try to stun his target. If he does so, the target must succeed on a {@dc 14} Constitution saving throw or be {@condition stunned} until the end of Fireball's next turn."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Potion of Fire Breath (3/Day)",
+					"entries": [
+						"Fireball exhales fire at a target within 30 feet of him. The target must make a {@dc 13} Dexterity saving throw, taking 14 ({@damage 4d6}) fire damage on a failed save, or half as much on a successful one."
+					]
+				},
+				{
+					"name": "Amulet of the Drunkard (1/Day)",
+					"entries": [
+						"Fireball drinks some ale, regaining ({@dice 4d4 + 4}) hit points. "
+					]
+				}
+			],
+			"tokenUrl": "https://media.discordapp.net/attachments/1034154042882003135/1035521004757323776/fireball.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"stunned"
+			]
+		},
+		{
+			"name": "Bud Light",
+			"source": "oretown",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"formula": "1d8 + 1",
+				"average": 5
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 9,
+			"dex": 10,
+			"con": 12,
+			"int": 10,
+			"wis": 10,
+			"cha": 12,
+			"passive": 10,
+			"cr": "0",
+			"damageTags": [
+				"P"
+			],
+			"tokenUrl": "https://media.discordapp.net/attachments/1034154042882003135/1035602954134245437/bud.png",
+			"skill": {
+				"persuasion": "+3"
+			},
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 2} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}2 ({@damage 1d4}) piercing damage."
+					]
+				},
+				{
+					"name": "Grovel",
+					"entries": [
+						"Bud Light falls {@condition prone} and gains advantage on his next Charisma (Persuasion) ability check until he stands up or until the end of his next turn."
+					]
+				}
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E"
+			],
+			"trait": [
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"Bud Light has advantage on saving throws against poison, and has resistance against poison damage."
+					]
+				}
+			],
+			"resist": [
+				"poison"
+			]
+		},
+		{
+			"name": "Lariette",
+			"source": "oretown",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"cattle"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"formula": "3d10 + 6",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 14,
+			"int": 2,
+			"wis": 10,
+			"cha": 4,
+			"passive": 10,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Beast of Burden",
+					"entries": [
+						"Lariette is considered to be one size larger for the purpose of determining him carrying capacity."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage. If Lariette moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 7 ({@damage 2d6}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://cdn.discordapp.com/attachments/1034154042882003135/1035610835575390218/unknown.png",
+			"shortName": "Lariette"
+		}
+	]
+}
